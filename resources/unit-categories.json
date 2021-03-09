@@ -1,0 +1,1090 @@
+[
+	{
+		"name": "Misc",
+		"formats": [
+			{
+				"name": "none",
+				"unit": "none"
+			},
+			{
+				"name": "String",
+				"unit": "string"
+			},
+			{
+				"name": "Short",
+				"unit": "short"
+			},
+			{
+				"name": "Percent (0-100)",
+				"unit": "percent"
+			},
+			{
+				"name": "Percent (0.0-1.0)",
+				"unit": "percentunit"
+			},
+			{
+				"name": "Humidity (%H)",
+				"unit": "humidity"
+			},
+			{
+				"name": "Decibel",
+				"unit": "dB"
+			},
+			{
+				"name": "Hexadecimal (0x)",
+				"unit": "hex0x"
+			},
+			{
+				"name": "Hexadecimal",
+				"unit": "hex"
+			},
+			{
+				"name": "Scientific notation",
+				"unit": "sci"
+			},
+			{
+				"name": "Locale format",
+				"unit": "locale"
+			},
+			{
+				"name": "Pixels",
+				"unit": "pixel"
+			}
+		]
+	},
+	{
+		"name": "Acceleration",
+		"formats": [
+			{
+				"name": "Meters/sec²",
+				"unit": "accMS2"
+			},
+			{
+				"name": "Feet/sec²",
+				"unit": "accFS2"
+			},
+			{
+				"name": "G unit",
+				"unit": "accG"
+			}
+		]
+	},
+	{
+		"name": "Angle",
+		"formats": [
+			{
+				"name": "Degrees (°)",
+				"unit": "degree"
+			},
+			{
+				"name": "Radians",
+				"unit": "radian"
+			},
+			{
+				"name": "Gradian",
+				"unit": "grad"
+			},
+			{
+				"name": "Arc Minutes",
+				"unit": "arcmin"
+			},
+			{
+				"name": "Arc Seconds",
+				"unit": "arcsec"
+			}
+		]
+	},
+	{
+		"name": "Area",
+		"formats": [
+			{
+				"name": "Square Meters (m²)",
+				"unit": "areaM2"
+			},
+			{
+				"name": "Square Feet (ft²)",
+				"unit": "areaF2"
+			},
+			{
+				"name": "Square Miles (mi²)",
+				"unit": "areaMI2"
+			}
+		]
+	},
+	{
+		"name": "Computation",
+		"formats": [
+			{
+				"name": "FLOP/s",
+				"unit": "flops"
+			},
+			{
+				"name": "MFLOP/s",
+				"unit": "mflops"
+			},
+			{
+				"name": "GFLOP/s",
+				"unit": "gflops"
+			},
+			{
+				"name": "TFLOP/s",
+				"unit": "tflops"
+			},
+			{
+				"name": "PFLOP/s",
+				"unit": "pflops"
+			},
+			{
+				"name": "EFLOP/s",
+				"unit": "eflops"
+			},
+			{
+				"name": "ZFLOP/s",
+				"unit": "zflops"
+			},
+			{
+				"name": "YFLOP/s",
+				"unit": "yflops"
+			}
+		]
+	},
+	{
+		"name": "Concentration",
+		"formats": [
+			{
+				"name": "parts-per-million (ppm)",
+				"unit": "ppm"
+			},
+			{
+				"name": "parts-per-billion (ppb)",
+				"unit": "conppb"
+			},
+			{
+				"name": "nanogram per cubic meter (ng/m³)",
+				"unit": "conngm3"
+			},
+			{
+				"name": "nanogram per normal cubic meter (ng/Nm³)",
+				"unit": "conngNm3"
+			},
+			{
+				"name": "microgram per cubic meter (μg/m³)",
+				"unit": "conμgm3"
+			},
+			{
+				"name": "microgram per normal cubic meter (μg/Nm³)",
+				"unit": "conμgNm3"
+			},
+			{
+				"name": "milligram per cubic meter (mg/m³)",
+				"unit": "conmgm3"
+			},
+			{
+				"name": "milligram per normal cubic meter (mg/Nm³)",
+				"unit": "conmgNm3"
+			},
+			{
+				"name": "gram per cubic meter (g/m³)",
+				"unit": "congm3"
+			},
+			{
+				"name": "gram per normal cubic meter (g/Nm³)",
+				"unit": "congNm3"
+			},
+			{
+				"name": "milligrams per decilitre (mg/dL)",
+				"unit": "conmgdL"
+			},
+			{
+				"name": "millimoles per litre (mmol/L)",
+				"unit": "conmmolL"
+			}
+		]
+	},
+	{
+		"name": "Currency",
+		"formats": [
+			{
+				"name": "Dollars ($)",
+				"unit": "currencyUSD"
+			},
+			{
+				"name": "Pounds (£)",
+				"unit": "currencyGBP"
+			},
+			{
+				"name": "Euro (€)",
+				"unit": "currencyEUR"
+			},
+			{
+				"name": "Yen (¥)",
+				"unit": "currencyJPY"
+			},
+			{
+				"name": "Rubles (₽)",
+				"unit": "currencyRUB"
+			},
+			{
+				"name": "Hryvnias (₴)",
+				"unit": "currencyUAH"
+			},
+			{
+				"name": "Real (R$)",
+				"unit": "currencyBRL"
+			},
+			{
+				"name": "Danish Krone (kr)",
+				"unit": "currencyDKK"
+			},
+			{
+				"name": "Icelandic Króna (kr)",
+				"unit": "currencyISK"
+			},
+			{
+				"name": "Norwegian Krone (kr)",
+				"unit": "currencyNOK"
+			},
+			{
+				"name": "Swedish Krona (kr)",
+				"unit": "currencySEK"
+			},
+			{
+				"name": "Czech koruna (czk)",
+				"unit": "currencyCZK"
+			},
+			{
+				"name": "Swiss franc (CHF)",
+				"unit": "currencyCHF"
+			},
+			{
+				"name": "Polish Złoty (PLN)",
+				"unit": "currencyPLN"
+			},
+			{
+				"name": "Bitcoin (฿)",
+				"unit": "currencyBTC"
+			},
+			{
+				"name": "Milli Bitcoin (฿)",
+				"unit": "currencymBTC"
+			},
+			{
+				"name": "Micro Bitcoin (฿)",
+				"unit": "currencyμBTC"
+			},
+			{
+				"name": "South African Rand (R)",
+				"unit": "currencyZAR"
+			},
+			{
+				"name": "Indian Rupee (₹)",
+				"unit": "currencyINR"
+			},
+			{
+				"name": "South Korean Won (₩)",
+				"unit": "currencyKRW"
+			},
+			{
+				"name": "Indonesian Rupiah (Rp)",
+				"unit": "currencyIDR"
+			},
+			{
+				"name": "Philippine Peso (PHP)",
+				"unit": "currencyPHP"
+			},
+			{
+				"name": "Vietnamese Dong (VND)",
+				"unit": "currencyVND"
+			}
+		]
+	},
+	{
+		"name": "Data",
+		"formats": [
+			{
+				"name": "bytes(IEC)",
+				"unit": "bytes"
+			},
+			{
+				"name": "bytes(SI)",
+				"unit": "decbytes"
+			},
+			{
+				"name": "bits(IEC)",
+				"unit": "bits"
+			},
+			{
+				"name": "bits(SI)",
+				"unit": "decbits"
+			},
+			{
+				"name": "kibibytes",
+				"unit": "kbytes"
+			},
+			{
+				"name": "kilobytes",
+				"unit": "deckbytes"
+			},
+			{
+				"name": "mebibytes",
+				"unit": "mbytes"
+			},
+			{
+				"name": "megabytes",
+				"unit": "decmbytes"
+			},
+			{
+				"name": "gibibytes",
+				"unit": "gbytes"
+			},
+			{
+				"name": "gigabytes",
+				"unit": "decgbytes"
+			},
+			{
+				"name": "tebibytes",
+				"unit": "tbytes"
+			},
+			{
+				"name": "terabytes",
+				"unit": "dectbytes"
+			},
+			{
+				"name": "pebibytes",
+				"unit": "pbytes"
+			},
+			{
+				"name": "petabytes",
+				"unit": "decpbytes"
+			}
+		]
+	},
+	{
+		"name": "Data rate",
+		"formats": [
+			{
+				"name": "packets/sec",
+				"unit": "pps"
+			},
+			{
+				"name": "bytes/sec(IEC)",
+				"unit": "binBps"
+			},
+			{
+				"name": "bytes/sec(SI)",
+				"unit": "Bps"
+			},
+			{
+				"name": "bits/sec(IEC)",
+				"unit": "binbps"
+			},
+			{
+				"name": "bits/sec(SI)",
+				"unit": "bps"
+			},
+			{
+				"name": "kibibytes/sec",
+				"unit": "KiBs"
+			},
+			{
+				"name": "kibibits/sec",
+				"unit": "Kibits"
+			},
+			{
+				"name": "kilobytes/sec",
+				"unit": "KBs"
+			},
+			{
+				"name": "kilobits/sec",
+				"unit": "Kbits"
+			},
+			{
+				"name": "mibibytes/sec",
+				"unit": "MiBs"
+			},
+			{
+				"name": "mibibits/sec",
+				"unit": "Mibits"
+			},
+			{
+				"name": "megabytes/sec",
+				"unit": "MBs"
+			},
+			{
+				"name": "megabits/sec",
+				"unit": "Mbits"
+			},
+			{
+				"name": "gibibytes/sec",
+				"unit": "GiBs"
+			},
+			{
+				"name": "gibibits/sec",
+				"unit": "Gibits"
+			},
+			{
+				"name": "gigabytes/sec",
+				"unit": "GBs"
+			},
+			{
+				"name": "gigabits/sec",
+				"unit": "Gbits"
+			},
+			{
+				"name": "tebibytes/sec",
+				"unit": "TiBs"
+			},
+			{
+				"name": "tebibits/sec",
+				"unit": "Tibits"
+			},
+			{
+				"name": "terabytes/sec",
+				"unit": "TBs"
+			},
+			{
+				"name": "terabits/sec",
+				"unit": "Tbits"
+			},
+			{
+				"name": "petibytes/sec",
+				"unit": "PiBs"
+			},
+			{
+				"name": "petibits/sec",
+				"unit": "Pibits"
+			},
+			{
+				"name": "petabytes/sec",
+				"unit": "PBs"
+			},
+			{
+				"name": "petabits/sec",
+				"unit": "Pbits"
+			}
+		]
+	},
+	{
+		"name": "Date & time",
+		"formats": [
+			{
+				"name": "Datetime ISO",
+				"unit": "dateTimeAsIso"
+			},
+			{
+				"name": "Datetime ISO (No date if today)",
+				"unit": "dateTimeAsIsoNoDateIfToday"
+			},
+			{
+				"name": "Datetime US",
+				"unit": "dateTimeAsUS"
+			},
+			{
+				"name": "Datetime US (No date if today)",
+				"unit": "dateTimeAsUSNoDateIfToday"
+			},
+			{
+				"name": "Datetime local",
+				"unit": "dateTimeAsLocal"
+			},
+			{
+				"name": "Datetime local (No date if today)",
+				"unit": "dateTimeAsLocalNoDateIfToday"
+			},
+			{
+				"name": "Datetime default",
+				"unit": "dateTimeAsSystem"
+			},
+			{
+				"name": "From Now",
+				"unit": "dateTimeFromNow"
+			}
+		]
+	},
+	{
+		"name": "Energy",
+		"formats": [
+			{
+				"name": "Watt (W)",
+				"unit": "watt"
+			},
+			{
+				"name": "Kilowatt (kW)",
+				"unit": "kwatt"
+			},
+			{
+				"name": "Megawatt (MW)",
+				"unit": "megwatt"
+			},
+			{
+				"name": "Gigawatt (GW)",
+				"unit": "gwatt"
+			},
+			{
+				"name": "Milliwatt (mW)",
+				"unit": "mwatt"
+			},
+			{
+				"name": "Watt per square meter (W/m²)",
+				"unit": "Wm2"
+			},
+			{
+				"name": "Volt-ampere (VA)",
+				"unit": "voltamp"
+			},
+			{
+				"name": "Kilovolt-ampere (kVA)",
+				"unit": "kvoltamp"
+			},
+			{
+				"name": "Volt-ampere reactive (var)",
+				"unit": "voltampreact"
+			},
+			{
+				"name": "Kilovolt-ampere reactive (kvar)",
+				"unit": "kvoltampreact"
+			},
+			{
+				"name": "Watt-hour (Wh)",
+				"unit": "watth"
+			},
+			{
+				"name": "Watt-hour per Kilogram (Wh/kg)",
+				"unit": "watthperkg"
+			},
+			{
+				"name": "Kilowatt-hour (kWh)",
+				"unit": "kwatth"
+			},
+			{
+				"name": "Kilowatt-min (kWm)",
+				"unit": "kwattm"
+			},
+			{
+				"name": "Ampere-hour (Ah)",
+				"unit": "amph"
+			},
+			{
+				"name": "Kiloampere-hour (kAh)",
+				"unit": "kamph"
+			},
+			{
+				"name": "Milliampere-hour (mAh)",
+				"unit": "mamph"
+			},
+			{
+				"name": "Joule (J)",
+				"unit": "joule"
+			},
+			{
+				"name": "Electron volt (eV)",
+				"unit": "ev"
+			},
+			{
+				"name": "Ampere (A)",
+				"unit": "amp"
+			},
+			{
+				"name": "Kiloampere (kA)",
+				"unit": "kamp"
+			},
+			{
+				"name": "Milliampere (mA)",
+				"unit": "mamp"
+			},
+			{
+				"name": "Volt (V)",
+				"unit": "volt"
+			},
+			{
+				"name": "Kilovolt (kV)",
+				"unit": "kvolt"
+			},
+			{
+				"name": "Millivolt (mV)",
+				"unit": "mvolt"
+			},
+			{
+				"name": "Decibel-milliwatt (dBm)",
+				"unit": "dBm"
+			},
+			{
+				"name": "Ohm (Ω)",
+				"unit": "ohm"
+			},
+			{
+				"name": "Kiloohm (kΩ)",
+				"unit": "kohm"
+			},
+			{
+				"name": "Megaohm (MΩ)",
+				"unit": "Mohm"
+			},
+			{
+				"name": "Farad (F)",
+				"unit": "farad"
+			},
+			{
+				"name": "Microfarad (µF)",
+				"unit": "µfarad"
+			},
+			{
+				"name": "Nanofarad (nF)",
+				"unit": "nfarad"
+			},
+			{
+				"name": "Picofarad (pF)",
+				"unit": "pfarad"
+			},
+			{
+				"name": "Femtofarad (fF)",
+				"unit": "ffarad"
+			},
+			{
+				"name": "Henry (H)",
+				"unit": "henry"
+			},
+			{
+				"name": "Millihenry (mH)",
+				"unit": "mhenry"
+			},
+			{
+				"name": "Microhenry (µH)",
+				"unit": "µhenry"
+			},
+			{
+				"name": "Lumens (Lm)",
+				"unit": "lumens"
+			}
+		]
+	},
+	{
+		"name": "Flow",
+		"formats": [
+			{
+				"name": "Gallons/min (gpm)",
+				"unit": "flowgpm"
+			},
+			{
+				"name": "Cubic meters/sec (cms)",
+				"unit": "flowcms"
+			},
+			{
+				"name": "Cubic feet/sec (cfs)",
+				"unit": "flowcfs"
+			},
+			{
+				"name": "Cubic feet/min (cfm)",
+				"unit": "flowcfm"
+			},
+			{
+				"name": "Litre/hour",
+				"unit": "litreh"
+			},
+			{
+				"name": "Litre/min (L/min)",
+				"unit": "flowlpm"
+			},
+			{
+				"name": "milliLitre/min (mL/min)",
+				"unit": "flowmlpm"
+			},
+			{
+				"name": "Lux (lx)",
+				"unit": "lux"
+			}
+		]
+	},
+	{
+		"name": "Force",
+		"formats": [
+			{
+				"name": "Newton-meters (Nm)",
+				"unit": "forceNm"
+			},
+			{
+				"name": "Kilonewton-meters (kNm)",
+				"unit": "forcekNm"
+			},
+			{
+				"name": "Newtons (N)",
+				"unit": "forceN"
+			},
+			{
+				"name": "Kilonewtons (kN)",
+				"unit": "forcekN"
+			}
+		]
+	},
+	{
+		"name": "Hash rate",
+		"formats": [
+			{
+				"name": "hashes/sec",
+				"unit": "Hs"
+			},
+			{
+				"name": "kilohashes/sec",
+				"unit": "KHs"
+			},
+			{
+				"name": "megahashes/sec",
+				"unit": "MHs"
+			},
+			{
+				"name": "gigahashes/sec",
+				"unit": "GHs"
+			},
+			{
+				"name": "terahashes/sec",
+				"unit": "THs"
+			},
+			{
+				"name": "petahashes/sec",
+				"unit": "PHs"
+			},
+			{
+				"name": "exahashes/sec",
+				"unit": "EHs"
+			}
+		]
+	},
+	{
+		"name": "Mass",
+		"formats": [
+			{
+				"name": "milligram (mg)",
+				"unit": "massmg"
+			},
+			{
+				"name": "gram (g)",
+				"unit": "massg"
+			},
+			{
+				"name": "kilogram (kg)",
+				"unit": "masskg"
+			},
+			{
+				"name": "metric ton (t)",
+				"unit": "masst"
+			}
+		]
+	},
+	{
+		"name": "Length",
+		"formats": [
+			{
+				"name": "millimeter (mm)",
+				"unit": "lengthmm"
+			},
+			{
+				"name": "feet (ft)",
+				"unit": "lengthft"
+			},
+			{
+				"name": "meter (m)",
+				"unit": "lengthm"
+			},
+			{
+				"name": "kilometer (km)",
+				"unit": "lengthkm"
+			},
+			{
+				"name": "mile (mi)",
+				"unit": "lengthmi"
+			}
+		]
+	},
+	{
+		"name": "Pressure",
+		"formats": [
+			{
+				"name": "Millibars",
+				"unit": "pressurembar"
+			},
+			{
+				"name": "Bars",
+				"unit": "pressurebar"
+			},
+			{
+				"name": "Kilobars",
+				"unit": "pressurekbar"
+			},
+			{
+				"name": "Pascals",
+				"unit": "pressurepa"
+			},
+			{
+				"name": "Hectopascals",
+				"unit": "pressurehpa"
+			},
+			{
+				"name": "Kilopascals",
+				"unit": "pressurekpa"
+			},
+			{
+				"name": "Inches of mercury",
+				"unit": "pressurehg"
+			},
+			{
+				"name": "PSI",
+				"unit": "pressurepsi"
+			}
+		]
+	},
+	{
+		"name": "Radiation",
+		"formats": [
+			{
+				"name": "Becquerel (Bq)",
+				"unit": "radbq"
+			},
+			{
+				"name": "curie (Ci)",
+				"unit": "radci"
+			},
+			{
+				"name": "Gray (Gy)",
+				"unit": "radgy"
+			},
+			{
+				"name": "rad",
+				"unit": "radrad"
+			},
+			{
+				"name": "Sievert (Sv)",
+				"unit": "radsv"
+			},
+			{
+				"name": "milliSievert (mSv)",
+				"unit": "radmsv"
+			},
+			{
+				"name": "microSievert (µSv)",
+				"unit": "radusv"
+			},
+			{
+				"name": "rem",
+				"unit": "radrem"
+			},
+			{
+				"name": "Exposure (C/kg)",
+				"unit": "radexpckg"
+			},
+			{
+				"name": "roentgen (R)",
+				"unit": "radr"
+			},
+			{
+				"name": "Sievert/hour (Sv/h)",
+				"unit": "radsvh"
+			},
+			{
+				"name": "milliSievert/hour (mSv/h)",
+				"unit": "radmsvh"
+			},
+			{
+				"name": "microSievert/hour (µSv/h)",
+				"unit": "radusvh"
+			}
+		]
+	},
+	{
+		"name": "Rotational Speed",
+		"formats": [
+			{
+				"name": "Revolutions per minute (rpm)",
+				"unit": "rotrpm"
+			},
+			{
+				"name": "Hertz (Hz)",
+				"unit": "rothz"
+			},
+			{
+				"name": "Radians per second (rad/s)",
+				"unit": "rotrads"
+			},
+			{
+				"name": "Degrees per second (°/s)",
+				"unit": "rotdegs"
+			}
+		]
+	},
+	{
+		"name": "Temperature",
+		"formats": [
+			{
+				"name": "Celsius (°C)",
+				"unit": "celsius"
+			},
+			{
+				"name": "Fahrenheit (°F)",
+				"unit": "fahrenheit"
+			},
+			{
+				"name": "Kelvin (K)",
+				"unit": "kelvin"
+			}
+		]
+	},
+	{
+		"name": "Time",
+		"formats": [
+			{
+				"name": "Hertz (1/s)",
+				"unit": "hertz"
+			},
+			{
+				"name": "nanoseconds (ns)",
+				"unit": "ns"
+			},
+			{
+				"name": "microseconds (µs)",
+				"unit": "µs"
+			},
+			{
+				"name": "milliseconds (ms)",
+				"unit": "ms"
+			},
+			{
+				"name": "seconds (s)",
+				"unit": "s"
+			},
+			{
+				"name": "minutes (m)",
+				"unit": "m"
+			},
+			{
+				"name": "hours (h)",
+				"unit": "h"
+			},
+			{
+				"name": "days (d)",
+				"unit": "d"
+			},
+			{
+				"name": "duration (ms)",
+				"unit": "dtdurationms"
+			},
+			{
+				"name": "duration (s)",
+				"unit": "dtdurations"
+			},
+			{
+				"name": "duration (hh:mm:ss)",
+				"unit": "dthms"
+			},
+			{
+				"name": "duration (d hh:mm:ss)",
+				"unit": "dtdhms"
+			},
+			{
+				"name": "Timeticks (s/100)",
+				"unit": "timeticks"
+			},
+			{
+				"name": "clock (ms)",
+				"unit": "clockms"
+			},
+			{
+				"name": "clock (s)",
+				"unit": "clocks"
+			}
+		]
+	},
+	{
+		"name": "Throughput",
+		"formats": [
+			{
+				"name": "counts/sec (cps)",
+				"unit": "cps"
+			},
+			{
+				"name": "ops/sec (ops)",
+				"unit": "ops"
+			},
+			{
+				"name": "requests/sec (rps)",
+				"unit": "reqps"
+			},
+			{
+				"name": "reads/sec (rps)",
+				"unit": "rps"
+			},
+			{
+				"name": "writes/sec (wps)",
+				"unit": "wps"
+			},
+			{
+				"name": "I/O ops/sec (iops)",
+				"unit": "iops"
+			},
+			{
+				"name": "counts/min (cpm)",
+				"unit": "cpm"
+			},
+			{
+				"name": "ops/min (opm)",
+				"unit": "opm"
+			},
+			{
+				"name": "reads/min (rpm)",
+				"unit": "rpm"
+			},
+			{
+				"name": "writes/min (wpm)",
+				"unit": "wpm"
+			}
+		]
+	},
+	{
+		"name": "Velocity",
+		"formats": [
+			{
+				"name": "meters/second (m/s)",
+				"unit": "velocityms"
+			},
+			{
+				"name": "kilometers/hour (km/h)",
+				"unit": "velocitykmh"
+			},
+			{
+				"name": "miles/hour (mph)",
+				"unit": "velocitymph"
+			},
+			{
+				"name": "knot (kn)",
+				"unit": "velocityknot"
+			}
+		]
+	},
+	{
+		"name": "Volume",
+		"formats": [
+			{
+				"name": "millilitre (mL)",
+				"unit": "mlitre"
+			},
+			{
+				"name": "litre (L)",
+				"unit": "litre"
+			},
+			{
+				"name": "cubic meter",
+				"unit": "m3"
+			},
+			{
+				"name": "Normal cubic meter",
+				"unit": "Nm3"
+			},
+			{
+				"name": "cubic decimeter",
+				"unit": "dm3"
+			},
+			{
+				"name": "gallons",
+				"unit": "gallons"
+			}
+		]
+	}
+]

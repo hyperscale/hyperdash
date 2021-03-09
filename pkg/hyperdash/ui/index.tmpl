@@ -11,8 +11,12 @@
 
         <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-        <script type="text/javascript" src="/scripts/app.js"></script>
-        <link rel="stylesheet" href="/styles/app.css" />
+        <script type="text/javascript">
+        const version = {{ .Version }};
+        </script>
+
+        <script type="text/javascript" src="/scripts/app.js?v={{ .Version }}"></script>
+        <link rel="stylesheet" href="/styles/app.css?v={{ .Version }}" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
         <link rel="icon" href="/favicon.ico" />
         <style type="text/css">
@@ -25,7 +29,12 @@
     </head>
     <body>
         <div class="wrapper">
-            {{range .Tiles}}<div class="box" id="{{ .Name }}" style="grid-column: {{ .Column }};grid-row: {{ .Row }};">{{ .Name }} ({{ .Type }})</div>{{end}}
+            {{range .Tiles}}
+            <div class="box {{ .Type }}" id="{{ .Name }}" style="grid-column: {{ .Column }};grid-row: {{ .Row }};">
+                <div class="title">{{ .Title }}</div>
+                <div class="value">Loading...</div>
+            </div>
+            {{end}}
         </div>
     </body>
 </html>

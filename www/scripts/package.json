@@ -1,0 +1,21 @@
+{
+  "name": "hyperdash",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Axel Etcheverry",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@grafana/data": "^7.4.3",
+    "stream": "0.0.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.3",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  }
+}

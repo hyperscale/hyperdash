@@ -6,5 +6,7 @@ type Tile struct {
 	Name     string    `hcl:"name,label"`
 	Column   int       `hcl:"column"`
 	Row      int       `hcl:"row"`
+	Title    string    `hcl:"title"`
+	Unit     UnitType  `hcl:"unit,optional"`
 	Provider *Provider `hcl:"provider,block"`
 }

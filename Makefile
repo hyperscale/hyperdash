@@ -55,8 +55,26 @@ ${BUILD}/plugin/%.so: plugin/%/*.go
 
 plugins: ${BUILD}/plugin/healthcheck.so
 
+.PHONY: docs
+docs: docs/units.md
 
-${BUILD}/hyperdash: $(shell find . -type f -print | grep -v vendor | grep "\.go")
+docs/units.md: resources/unit-categories.json
+	@echo "Generate $@..."
+	@go run cmd/generate-docs/main.go -- $@
+
+pkg/hyperdash/config/enum.go: resources/unit-categories.json
+	@echo "Generate $@..."
+	@go run cmd/generate-enum/main.go -- $@
+
+www/scripts/dist/index.js: www/scripts/src/index.ts www/scripts/src/* www/scripts/package.json www/scripts/package-lock.json
+	@echo "Generate js..."
+	@cd ./www/scripts/; \
+		./node_modules/.bin/webpack
+
+pkg/hyperdash/ui/scripts/app.js: www/scripts/dist/index.js
+	@cp $< $@
+
+${BUILD}/hyperdash: $(shell find . -type f -print | grep -v vendor | grep "\.go") pkg/hyperdash/ui/scripts/app.js pkg/hyperdash/config/enum.go
 	@echo "Building hyperdash..."
 	@go generate ./cmd/hyperdash/
 	@go build -o $@ ./cmd/hyperdash/
@@ -64,4 +82,4 @@ ${BUILD}/hyperdash: $(shell find . -type f -print | grep -v vendor | grep "\.go"
 build: ${BUILD}/hyperdash plugins
 
 run: ${BUILD}/hyperdash
-	@$< run demo/my-dash.hcl
+	@$< run demo/angell.hcl

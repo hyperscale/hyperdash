@@ -4,3 +4,7 @@
 build/
 
 *.swp
+
+www/scripts/dist/
+www/scripts/node_modules
+demo/angell.hcl
