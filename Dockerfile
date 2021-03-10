@@ -7,16 +7,18 @@ RUN npm run build
 
 
 # Start by building the application.
-FROM golang:1.16-buster as build-go
+FROM golang:1.16-alpine as build-go
+
+RUN apk add --no-cache ca-certificates make
 
 WORKDIR /go/src/app
 ADD . /go/src/app
 
 COPY --from=build-js /app/www/scripts/dist/index.js /go/src/app/pkg/hyperdash/ui/scripts/app.js
 
-RUN make docker-build
+RUN CGO_ENABLED=0 make docker-build
 
-FROM gcr.io/distroless/base-debian10
-COPY --from=build-go /go/src/app/hyperdash /
-ENTRYPOINT [ "/hyperdash" ]
-CMD [ "run", "demo/dashboard.hcl" ]
+FROM alpine:3.13
+RUN apk add --no-cache ca-certificates
+COPY --from=build-go /go/src/app/hyperdash /bin
+CMD [ "hyperdash", "run", "demo/dashboard.hcl" ]
