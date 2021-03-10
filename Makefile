@@ -83,3 +83,9 @@ build: ${BUILD}/hyperdash plugins
 
 run: ${BUILD}/hyperdash
 	@$< run demo/angell.hcl
+
+
+docker-build: $(shell find . -type f -print | grep -v vendor | grep "\.go") pkg/hyperdash/config/enum.go
+	@echo "Building hyperdash..."
+	@go generate ./cmd/hyperdash/
+	@go build -o hyperdash ./cmd/hyperdash/

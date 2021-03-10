@@ -1,0 +1,6 @@
+www/scripts/dist
+www/scripts/node_modules
+pkg/hyperdash/ui/scripts/app.js
+build/
+.vscode/
+docs/
