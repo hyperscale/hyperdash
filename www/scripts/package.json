@@ -10,7 +10,7 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "@grafana/data": "^7.5.17",
+    "@grafana/data": "^9.3.2",
     "stream": "0.0.2"
   },
   "devDependencies": {
