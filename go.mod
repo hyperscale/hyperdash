@@ -12,13 +12,13 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/rs/zerolog v1.20.0
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
-	github.com/savaki/jq v0.0.0-20161209013833-0e6baecebbf8 // indirect
+	github.com/savaki/jq v0.0.0-20161209013833-0e6baecebbf8
 	github.com/spf13/afero v1.5.1
 	github.com/stretchr/testify v1.7.0
 	github.com/urfave/cli/v2 v2.3.0
-	github.com/zclconf/go-cty v1.8.0 // indirect
+	github.com/zclconf/go-cty v1.8.0
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.0 // indirect
 )
 
 go 1.16
